@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Said\\source\\repos\\WAD.CW1.00009713\\WAD.CW1.00009713\\WAD.CW1.00009713.csproj": {}
+    "D:\\WAD.CW1.00009713\\WAD.CW1.00009713\\WAD.CW1.00009713\\WAD.CW1.00009713.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Said\\source\\repos\\WAD.CW1.00009713\\WAD.CW1.00009713\\WAD.CW1.00009713.csproj": {
+    "D:\\WAD.CW1.00009713\\WAD.CW1.00009713\\WAD.CW1.00009713\\WAD.CW1.00009713.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Said\\source\\repos\\WAD.CW1.00009713\\WAD.CW1.00009713\\WAD.CW1.00009713.csproj",
+        "projectUniqueName": "D:\\WAD.CW1.00009713\\WAD.CW1.00009713\\WAD.CW1.00009713\\WAD.CW1.00009713.csproj",
         "projectName": "WAD.CW1.00009713",
-        "projectPath": "C:\\Users\\Said\\source\\repos\\WAD.CW1.00009713\\WAD.CW1.00009713\\WAD.CW1.00009713.csproj",
+        "projectPath": "D:\\WAD.CW1.00009713\\WAD.CW1.00009713\\WAD.CW1.00009713\\WAD.CW1.00009713.csproj",
         "packagesPath": "C:\\Users\\Said\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Said\\source\\repos\\WAD.CW1.00009713\\WAD.CW1.00009713\\obj\\",
+        "outputPath": "D:\\WAD.CW1.00009713\\WAD.CW1.00009713\\WAD.CW1.00009713\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Said\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -48,6 +48,10 @@
               "target": "Package",
               "version": "[11.0.0, )"
             },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.15, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -63,6 +67,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.15, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[6.0.8, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

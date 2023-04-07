@@ -24,7 +24,7 @@ namespace WAD.CW1._00009713.Controllers
         [ProducesResponseType(200, Type = typeof(ICollection<Book>))]
         public IActionResult GetAll()
         {
-            var books = _bookRepository.GetAll();
+            var books = _mapper.Map<List<BookDto>>(_bookRepository.GetAll());
             if(ModelState.IsValid)
             {
                 return Ok(books);

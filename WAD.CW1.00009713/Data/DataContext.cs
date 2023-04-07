@@ -15,7 +15,10 @@ namespace WAD.CW1._00009713.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-
+            modelBuilder.Entity<Book>()
+                .HasOne<Author>(t => t.Author)
+                .WithMany(s => s.Books)
+                .HasForeignKey(t => t.AuthorId);
         }
     }
 }
